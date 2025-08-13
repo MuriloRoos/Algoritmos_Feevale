@@ -11,6 +11,7 @@ public class soma {
             n2 = leitor.nextInt();
             soma = n1 + n2;
             System.out.println("Resultado da soma de "+ n1 +" + " + n2 + " é igual a " + soma);
+            
         }
     }
 }
