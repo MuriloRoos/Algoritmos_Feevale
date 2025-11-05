@@ -1,9 +1,10 @@
-package roteiro_6_exercicios;
-
 public class FuncaoDivisao {
     public static double funcaoDivisao(double x, double y){
-        double resultDiv = x / y;
-        return resultDiv;
+        if (y == 0){
+            System.out.println("Divisão invalida");
+            return 0;
+        }
+        return x / y;
     }
 
     public static void main(String[] args) {
@@ -15,3 +16,4 @@ public class FuncaoDivisao {
         System.out.println(a + " / " + b + " = " + divisao);
     }
 }
+
